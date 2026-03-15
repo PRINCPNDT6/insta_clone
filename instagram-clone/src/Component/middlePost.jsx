@@ -26,7 +26,7 @@ function MiddlePost({ profileImg, profileName, suggestDetails, date, firstpost, 
   //  Follow/Unfollow logic
   const handleFollowClick = () => {
     if (follow === "Follow") {
-      setFollow("Following");
+      setFollow("Unfollow");
     } else {
       setShowOverlay(true); // Show unfollow overlay
     }
